@@ -1,9 +1,10 @@
 <template>
   <div id="footer">
-    <p class="line"/>
-    <p>原创文章，版权声明</p>
-    <p>欢迎微信公众号关注 积步致远</p>
-    <p>©2021 darren</p>
+    <div class="copyright">
+      <p>原创文章，版权声明</p>
+      <p>欢迎微信公众号关注 <strong>积步致远</strong></p>
+      <p>©2021 darren</p>
+    </div>
   </div>
 </template>
 
@@ -18,9 +19,15 @@ export default {
 </script>
 
 <style>
-.line {
-    height: 1px;
-    width: 800px;
-    background-color: lightgrey;
+
+#footer {
+  display: block;
 }
+
+.copyright {
+  margin: 4em 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
 </style>

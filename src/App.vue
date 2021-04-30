@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <Header/>
     <article-list> </article-list>
     <Footer></Footer>
@@ -23,5 +23,8 @@ export default {
 </script>
 
 <style>
-
+#app {
+  width: 1050px;
+  margin: 0 auto;
+}
 </style>
